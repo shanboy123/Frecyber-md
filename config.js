@@ -17,9 +17,9 @@ global.github = process.env.GITHUB || "https://github.com/Frecyber/Frecyber-md";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1d4a42b28790d0f7a7195.jpg";
-global.devs = "255620814108,255764182801,255776663848";
-global.sudo = process.env.SUDO || "255620814108,255764182801,255776663848";
-global.owner = process.env.OWNER_NUMBER || "255620814108,255764182801,255776663848";
+global.devs = "255620814108,255764182801,255776663848,255752593977";
+global.sudo = process.env.SUDO || "255620814108,255764182801,255776663848,255752593977";
+global.owner = process.env.OWNER_NUMBER || "255620814108,255764182801,255776663848,255752593977";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "VENOCYBER").toUpperCase(),
+  LANG: (process.env.THEME || "FRECYBER").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
