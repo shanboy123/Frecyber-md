@@ -9,8 +9,8 @@
       "Fredie ": "pm2 start . --deep-monitoring --attach --name Fredie || node .",
       "start": "pm2 start . --attach --name Fredie",
       "stop": "pm2 stop Fredie",
-      "heroku-postbuild": "git clone https://github.com/fredietechTZ/Frecyber-md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "https://github.com/fredietechTZ/Frecyber-md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/Frecyber/Frecyber-md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "https://github.com/Frecyber/Frecyber-md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "FredieTech",
@@ -75,10 +75,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/fredietechTZ/Frecyber-md.git"
+      "url": "git+https://github.com/Frecyber/Frecyber-md.git"
    },
    "bugs": {
-      "url": "https://github.com/fredietechTZ/Frecyber-md/issues"
+      "url": "https://github.com/Frecyber/Frecyber-md/issues"
    },
-   "homepage": "https://github.com/fredietechTZ/Frecyber-md#readme"
+   "homepage": "https://github.com/Frecyber/Frecyber-md#readme"
 }
